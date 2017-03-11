@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 import com.imzy.xml.node.LangType;
 
 /**
- * ≤È—Ø 
+ * ≤È—Ø
  * @author yangzhang7
  *
  */
