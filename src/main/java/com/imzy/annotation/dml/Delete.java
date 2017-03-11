@@ -7,6 +7,11 @@ import java.lang.annotation.Target;
 
 import com.imzy.xml.node.LangType;
 
+/**
+ * É¾³ý
+ * @author yangzhang7
+ *
+ */
 @Target({ ElementType.METHOD })
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Delete {
