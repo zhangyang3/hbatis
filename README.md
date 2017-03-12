@@ -31,6 +31,7 @@ public interface PersonDao {
     - 参数类型为数组或集合，默认名称为_list。
     - 其他类型，默认名称为_obj。
 - **入参个数为2，则一定需要加上Param。**
+
 ## xml模式
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
