@@ -24,13 +24,13 @@ public interface PersonDao {
 ```
 ***Dao***为标记注解，让spring识别。  
 ***Param***给参数定义名称。  
-- **入参个数为1，则不需要加Parm**
+- **入参个数为1，则不需要加Param**
     - 参数类型为*String*时，默认名称为_str
     - 参数类型为*long,Long,double,Double,char,Charater,int,Integer*时，默认名称为_num。
     - 参数类型为*com.imzy.bean.Page<T>*时，默认名称为_page。
     - 参数类型为数组或集合，默认名称为_list。
     - 其他类型，默认名称为_obj。
-- **入参个数为2，则一定需要加上Param。**
+- **入参个数为2，则一定需要加上Param。** 参数中包含Page的不需要加Param，即使加了也是默认值_page。参考*PersonDao.selectList(page,ids)*
 
 ## xml模式
 ```xml
